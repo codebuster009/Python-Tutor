@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.course-parent {
+  border-radius: 20px;
+  height: 600px;
+  width: 1000px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 5px 7px #888888;
+}
+
+.course-title,
+.course-description {
+  color: black;
+  padding: 15px;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.course-title {
+  color: #000;
+  font-family: IBM Plex Sans;
+  font-size: 33.18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 41.475px;
+}
+.course-description {
+  word-wrap: break-word;
+  margin-bottom: 80px;
+  color: #000;
+  font-family: IBM Plex Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
