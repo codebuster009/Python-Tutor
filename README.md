@@ -18,7 +18,7 @@ cd Python-Tutor
 npm install
 
 # Run the project
-npm start
+npm run dev
 
 ## Description
 
