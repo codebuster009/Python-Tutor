@@ -25,7 +25,7 @@ function App() {
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
-      controls.stop(); // Stop the animation when the component is unmounted
+      controls.stop(); 
     };
   }, []);
 
